@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Personaje
 comment1.params=experiencia\ nombre
-comment1.target=Personaje(int,\ java.lang.String)
+comment1.target=Personaje(double,\ java.lang.String)
 comment1.text=\r\n\ Creamos\ a\ nuestro\ Personaje\ y\ definimos\ sus\ variables.\r\n
 comment2.params=
 comment2.target=java.lang.String\ getNombrePersonaje()
@@ -13,10 +13,10 @@ comment4.params=
 comment4.target=boolean\ getInventarioLleno()
 comment4.text=\r\n\ Invocamos\ el\ metodo\ para\ obtener\ informaci\u00F3m\ sobre\ si\ el\ escenario\ est\u00E1\ lleno\ o\ no\r\n
 comment5.params=nuevoNombre
-comment5.target=void\ setNuevoNombre(java.lang.String)
+comment5.target=void\ setNombrePersonaje(java.lang.String)
 comment5.text=\r\n\ Elegimos\ un\ nuevo\ nombre\ para\ nuestro\ personaje\r\n
 comment6.params=experienciaRecogida
-comment6.target=double\ recogerEsperencia(double)
+comment6.target=double\ recogerExperencia(double)
 comment6.text=\r\n\ A\u00F1adimos\ Experiencia\ a\ la\ experiencia\ total\r\n
 comment7.params=
 comment7.target=void\ alternarInventario()

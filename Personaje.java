@@ -8,7 +8,7 @@ public class Personaje {
     /**
      * Creamos a nuestro Personaje y definimos sus variables.
      */
-    public Personaje(int experiencia, String nombre) {
+    public Personaje(double experiencia, String nombre) {
         experienciaAcumulada = experiencia;
         nombrePersonaje = nombre;
         inventarioLleno = true;
@@ -41,7 +41,7 @@ public class Personaje {
     /**
      * Elegimos un nuevo nombre para nuestro personaje
      */
-    public void setNuevoNombre(String nuevoNombre){
+    public void setNombrePersonaje(String nuevoNombre){
         nombrePersonaje = nuevoNombre;
         
         
@@ -49,7 +49,7 @@ public class Personaje {
     /**
      * Añadimos Experiencia a la experiencia total
      */
-    public double recogerEsperencia(double experienciaRecogida){
+    public double recogerExperencia(double experienciaRecogida){
         return experienciaAcumulada = experienciaAcumulada + experienciaRecogida; 
         
         
@@ -66,13 +66,13 @@ public class Personaje {
      * Imprimimos en pantalla la infromación de nuestro personaje
      */
     public void informacionPersonaje(){
-        if (inventarioLleno == true) {
+        if (inventarioLleno) {
             System.out.println("Nombre Personaje:  " +  nombrePersonaje + " |  Experiencia total acumulada:  " + experienciaAcumulada + " | ¿Inventario Lleno?: " + " si");
         }
         else { 
             System.out.println("Nombre Personaje:  " +  nombrePersonaje + " |  Experiencia total acumulada:  " + experienciaAcumulada + " | ¿Inventario Lleno?: " + "no");
         
         }   
-
+        
     }
 }
