@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Personaje
+comment1.params=experiencia\ nombre
+comment1.target=Personaje(int,\ java.lang.String)
+comment1.text=\r\n\ Creamos\ a\ nuestro\ Personaje\ y\ definimos\ sus\ variables.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNombrePersonaje()
+comment3.params=
+comment3.target=int\ getExperienciaAcumulada()
+comment4.params=
+comment4.target=boolean\ getInventarioLleno()
+numComments=5
