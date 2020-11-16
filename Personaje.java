@@ -73,6 +73,19 @@ public class Personaje {
             System.out.println("Nombre Personaje:  " +  nombrePersonaje + " |  Experiencia total acumulada:  " + experienciaAcumulada + " | ¿Inventario Lleno?: " + "no");
         
         }   
-        
     }
+    /**
+     * Imprimimos el resto de detalles
+     */
+    public String getInformacionPersonaje (){
+        String informacionPersonaje = "Nombre Personaje:  " +  nombrePersonaje + " |  Experiencia total acumulada:  " + experienciaAcumulada;
+        if (inventarioLleno) {
+            informacionPersonaje = informacionPersonaje + " | Tiene el inventario lleno";
+        }
+        else {
+            informacionPersonaje = informacionPersonaje + " | Tiene el inventario vacio";
+        }
+        return  informacionPersonaje;
+    }
+        
 }
